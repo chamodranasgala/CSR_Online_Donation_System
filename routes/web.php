@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/aboutus', function () {
@@ -23,6 +23,22 @@ Route::get('/aboutus', function () {
 
 Route::get('/contactus', function () {
     return view('contactus');
+});
+
+Route::get('/signin', function () {
+    return view('signin');
+});
+
+Route::get('/signup', function () {
+    return view('signup');
+});
+
+Route::get('/adminlogin', function () {
+    return view('adminlogin');
+});
+
+Route::get('/donatorprofile', function () {
+    return view('donatorprofile');
 });
 
 Route::get('/donate', function () {
