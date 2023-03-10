@@ -7,6 +7,6 @@
     <title>Admin Login</title>
 </head>
 <body>
-    <h1>Admin Login</h1>
+    <h1>Admin Logi</h1>
 </body>
 </html>
