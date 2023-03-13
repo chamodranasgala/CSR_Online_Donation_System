@@ -23,7 +23,6 @@
         padding: 0.75rem 1rem;
     }
     </style>
-
 </head>
 
 <body>
@@ -48,7 +47,7 @@
                             </div>
 
                             <br> <br>
-                            
+                                                
                             <div class="d-grid">
                                 <button class="btn btn-primary btn-login text-uppercase fw-bold"
                                     type="submit">Login</button>
